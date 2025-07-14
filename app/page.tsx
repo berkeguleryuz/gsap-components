@@ -26,6 +26,14 @@ export default function Home() {
       tech: "GSAP [ScrollTrigger + ScrollSmoother]",
       status: "Active",
     },
+    {
+      id: 4,
+      name: "MagicalText",
+      description: "Magical text animation with GSAP",
+      route: "/magical-text",
+      tech: "GSAP [SplitText + ScrambleTextPlugin]",
+      status: "Active",
+    },
   ];
 
   return (
