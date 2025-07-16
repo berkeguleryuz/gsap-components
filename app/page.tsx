@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import Link from "next/link";
 
 export default function Home() {
@@ -33,6 +34,14 @@ export default function Home() {
       route: "/magical-text",
       tech: "GSAP [SplitText + ScrambleTextPlugin]",
       status: "Active",
+    },
+    {
+      id: 5,
+      name: "TopStackedCards",
+      description: "Top stacked cards animation with scroll",
+      route: "/top-stacked-cards",
+      tech: "GSAP [ScrollTrigger + ScrollSmoother]",
+      status: "Not Active",
     },
   ];
 
@@ -74,8 +83,14 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-center justify-between">
-                  <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-1"></span>
+                  <span className={clsx("inline-flex items-center px-2 py-1 gap-1 rounded-full text-xs font-medium", component.status === "Active" ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800")}>
+                    <span
+                      className={clsx(
+                        `w-2 h-2 rounded-full mr-1`,
+                        component.status === "Active"
+                          ? "bg-green-500"
+                          : "bg-red-500",
+                      )}></span>
                     {component.status}
                   </span>
                   <svg
