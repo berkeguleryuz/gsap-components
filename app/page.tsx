@@ -40,7 +40,15 @@ export default function Home() {
       name: "TopStackedCards",
       description: "Top stacked cards animation with scroll",
       route: "/top-stacked-cards",
-      tech: "GSAP [ScrollTrigger + ScrollSmoother]",
+      tech: "GSAP [ScrollTrigger]",
+      status: "Active",
+    },
+    {
+      id: 6,
+      name: "AccordionImages",
+      description: "Accordion images animation with scroll",
+      route: "/accordion-images",
+      tech: "GSAP [ScrollTrigger]",
       status: "Not Active",
     },
   ];
