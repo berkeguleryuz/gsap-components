@@ -20,7 +20,7 @@ const HorizontalScroll = () => {
 
     const cards = gsap.utils.toArray("#card") as Element[];
     const cardsContainer = document.querySelector(
-      "#cards-container",
+      "#cards-container"
     ) as Element;
 
     gsap.set(cards[0], { opacity: 1 });
@@ -58,13 +58,15 @@ const HorizontalScroll = () => {
         <div id="scroll-section" className="relative overflow-hidden">
           <div
             id="cards-container"
-            className="w-full h-full flex flex-nowrap justify-start items-center px-9 md:px-[50px] py-0">
+            className="w-full h-full flex flex-nowrap justify-start items-center px-9 md:px-[50px] py-0"
+          >
             <div id="heading" className="flex-[1 0 35%]">
               <h1 className="text-7xl text-white font-bold mr-10">Clodron</h1>
             </div>
             <div
               id="card"
-              className="h-full flex-[1_0_50%] mr-9 md:mr-12 rounded-xl shadow-xl opacity-0">
+              className="h-full flex-[1_0_50%] mr-9 md:mr-12 rounded-xl shadow-xl opacity-0"
+            >
               <img
                 className="block w-full h-full object-cover rounded-xl"
                 src={
@@ -75,7 +77,8 @@ const HorizontalScroll = () => {
             </div>
             <div
               id="card"
-              className="h-full flex-[1_0_50%] mr-9 md:mr-12 rounded-xl shadow-xl opacity-0">
+              className="h-full flex-[1_0_50%] mr-9 md:mr-12 rounded-xl shadow-xl opacity-0"
+            >
               <img
                 className="block w-full h-full object-cover rounded-xl"
                 src={
@@ -86,7 +89,8 @@ const HorizontalScroll = () => {
             </div>
             <div
               id="card"
-              className="h-full flex-[1_0_50%] mr-9 md:mr-12 rounded-xl shadow-xl opacity-0">
+              className="h-full flex-[1_0_50%] mr-9 md:mr-12 rounded-xl shadow-xl opacity-0"
+            >
               <img
                 className="block w-full h-full object-cover rounded-xl"
                 src={
@@ -97,7 +101,8 @@ const HorizontalScroll = () => {
             </div>
             <div
               id="card"
-              className="h-full flex-[1_0_50%] mr-9 md:mr-12 rounded-xl shadow-xl opacity-0">
+              className="h-full flex-[1_0_50%] mr-9 md:mr-12 rounded-xl shadow-xl opacity-0"
+            >
               <img
                 className="block w-full h-full object-cover rounded-xl"
                 src={
@@ -108,7 +113,8 @@ const HorizontalScroll = () => {
             </div>
             <div
               id="card"
-              className="h-full flex-[1_0_50%] rounded-xl shadow-xl opacity-0">
+              className="h-full flex-[1_0_50%] rounded-xl shadow-xl opacity-0"
+            >
               <img
                 className="block w-full h-full object-cover rounded-xl"
                 src={

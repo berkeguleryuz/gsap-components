@@ -3,7 +3,7 @@ import HorizontalScroll from "./_components/HorizontalScroll";
 
 const HorizontalScrollPage = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="">
       <HorizontalScroll />
     </div>
   );
