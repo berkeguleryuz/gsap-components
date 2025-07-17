@@ -48,8 +48,8 @@ export default function Home() {
       name: "AccordionImages",
       description: "Accordion images animation with scroll",
       route: "/accordion-images",
-      tech: "GSAP [ScrollTrigger]",
-      status: "Not Active",
+      tech: "GSAP",
+      status: "Active",
     },
   ];
 
