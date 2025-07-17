@@ -4,7 +4,7 @@ import TopStackedCard from "./_components/TopStackedCard";
 const TopStackedCardPage = () => {
   return (
     <div
-      className="flex justify-center items-center min-h-screen h-full w-full"
+      className=""
       suppressHydrationWarning>
       <TopStackedCard />
     </div>
