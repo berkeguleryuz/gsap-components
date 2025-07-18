@@ -58,7 +58,7 @@ const HorizontalScroll = () => {
         <div id="scroll-section" className="relative overflow-hidden">
           <div
             id="cards-container"
-            className="w-full h-full flex flex-nowrap justify-start items-center px-10 md:px-[50px] py-0"
+            className="w-full h-full flex flex-nowrap justify-start items-center px-11 md:px-[50px] py-0"
           >
             <div id="heading" className="flex-[1 0 35%]">
               <h1 className="text-7xl text-white font-bold mr-10">Clodron</h1>
