@@ -51,6 +51,14 @@ export default function Home() {
       tech: "GSAP",
       status: "Active",
     },
+    {
+      id: 7,
+      name: "StaggerCards",
+      description: "Stagger cards animation with scroll",
+      route: "/stagger-cards",
+      tech: "GSAP [ScrollTrigger]",
+      status: "Active",
+    },
   ];
 
   return (
