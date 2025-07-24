@@ -31,3 +31,31 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+@keyframes floating {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, -55%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.animate-floating {
+  animation: floating 2s infinite ease-in-out;
+}
+
+#card-1 .card-wrapper {
+  animation-delay: 0;
+}
+
+#card-2 .card-wrapper {
+  animation-delay: 0.25s;
+}
+
+#card-3 .card-wrapper {
+  animation-delay: 0.5s;
+}

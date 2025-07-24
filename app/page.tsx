@@ -99,7 +99,13 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-center justify-between">
-                  <span className={clsx("inline-flex items-center px-2 py-1 gap-1 rounded-full text-xs font-medium", component.status === "Active" ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800")}>
+                  <span
+                    className={clsx(
+                      "inline-flex items-center px-2 py-1 gap-1 rounded-full text-xs font-medium",
+                      component.status === "Active"
+                        ? "bg-green-100 text-green-800"
+                        : "bg-red-100 text-red-800",
+                    )}>
                     <span
                       className={clsx(
                         `w-2 h-2 rounded-full mr-1`,
